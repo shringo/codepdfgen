@@ -18,8 +18,6 @@ window.onload = function () {
     const getCC = (str) => parseInt(str.slice(3, -2));
     let previousCC;
 
-    console.log(card.getFontList());
-
     for(let i = 0; i < csv.length; i++) {
       const id = csv[i];
       if (i !== 0) card.addPage();
